@@ -4,7 +4,18 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #00c6a9;
+  font-weight: bold;
+  
+}
 
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #00c6a9;
+  font-weight: bold;
+}
 .glow{
     animation: glow 1s ease-in-out infinite alternate;
 }
@@ -116,4 +127,53 @@ header{
     color: white;
     border: none;
     border-radius: 5px;
+}
+.appoinment_box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.box_head{
+    margin-left: 27px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  
+    
+}
+
+input[type=text],input[type=number],input[type=date]{
+    border: 1px solid #00c6a9;
+    padding: 5px;
+    width: 300px;
+}
+
+.hr{
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    border: 1.5px solid #00c6a9;
+}
+select{
+    border: 1px solid #00c6a9;
+    padding: 5px;
+    width: 300px;
+}
+legend{
+    margin-top: 20px;
+    
+}
+
+.appoinment_container{
+    margin: 100px ;
+    box-shadow: 0px 0px 8px 8px #ebe7e7;
+    padding: 50px;
+   
+}
+.btn_box{
+    margin-left: 27px;
+    margin-top: 20px;
+    padding: 20px 50px;
+    font-size: 17px;
 }
