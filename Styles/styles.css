@@ -5,6 +5,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.glow{
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #eff7f5, 0 0 20px #169b87, 0 0 30px #37998a, 0 0 40px #87f7e6, 0 0 50px #72fce7, 0 0 60px #78f7e4, 0 0 70px #7af5e2;
+    }
+    to {
+      text-shadow: 0 0 20px #ecf3f2, 0 0 30px #3d9c8e, 0 0 40px #99ece0, 0 0 50px #99f7e8, 0 0 60px #89eedf, 0 0 70px #80ebdb, 0 0 80px #8afceb;
+    }
+  }
 /* contact section */
 .nav_contact_infos p{
     display: inline;
@@ -37,6 +48,7 @@
     background-color: white;
     margin-left: 30px;
     text-align: center;
+    
 }
 .menus{
     display: flex;
@@ -54,4 +66,54 @@
     padding: 40px 80px;
     color: white;
     
+}
+
+.play{
+    color: #1ba893;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-size: 4rem;
+   
+
+
+}
+
+.banner_container{
+
+
+    /* background-position: bottom right; */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    
+    
+    
+}
+header{
+    background-image: url('../images/dots.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.banner_header{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.cian{
+    color: #00c6a9;
+}
+.banner_description{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn_black{
+    background-color: black;
+    padding: 15px 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
